@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Analizador de texto</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Texto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <script src="index.js" type="module"></script>
+    <div id="contenedor">
+        <h1>Analizador de texto</h1>
+        <textarea id="inputText" rows="4" cols="50"></textarea><br>
+        <button id="limpiarButton">Limpiar</button><br>
+        <div id="resultados"></div>
+    </div>
+    <script type="module" src="analyzer.js"></script>
+    <script type="module" src="index.js"></script>
 </body>
 </html>

@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* gris claro */
+  background-image: url('web.png');
+  color: #333; /* gris oscuro */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #ff6f61;
+}
+
+/* área de texto */
+#inputText {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* botón limpiar */
+#limpiarButton {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#limpiarButton:hover {
+  background-color: #2980b9; /* celeste oscuro mousse*/
+}
+
+/* contenedor de resultados */
+#resultados {
+  margin-top: 20px;
+}
+
+/* característica */
+.caracteristica {
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Color blanco con 50% de opacidad */
+  padding: 10px;
+  margin: 10px;
+  opacity: 0.8; /* Opacidad general de la caja */
+}
+
+/*resultados individuales */
+.caracteristica p {
+  margin: 5px 0;
+}
+
+/* título de resultados */
+.caracteristica h2 {
+  color: #f16b5f;
+}
+
+#contenedor {
+  padding-top: 10%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+  /* Estilos del área de texto */
+  #inputText {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos del botón limpiar */
+  #limpiarButton {
+    background-color: #3498db; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #limpiarButton:hover {
+    background-color: #2980b9; /* celeste oscuro mousse*/ 
+  }
+  
+  /* Estilos de los resultados */
+  #resultados {
+    margin-top: 20px;
+  }
+  
+  /*resultados individuales */
+  #resultados p {
+    margin: 5px 0;
+  }
+  
+  /* contenedor de resultados */
+  #resultados h2 {
+    color: #f16b5f;
+  }
+
+  #contenedor {
+    padding-top:10%;
+    padding-left:30%;
+    padding-right: 30%;
+  }
+  
