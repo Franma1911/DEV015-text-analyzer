@@ -1,4 +1,4 @@
-const analyzer = {  
+const analyzer = {
   getWordCount: (text) => {
     let palabras = text.split(/\s+/).filter(function(palabra) {
       return palabra.length > 0;
@@ -13,7 +13,7 @@ const analyzer = {
     let letras = text.replace(/[^a-zA-Z]/g, '').length;
     return letras;
   },
-  getAverageWordLength: (text) => {    
+  getAverageWordLength: (text) => {
     let palabras = text.split(/\s+/).filter(function(palabra) {
       return palabra.length > 0;
     });
@@ -22,7 +22,7 @@ const analyzer = {
     if(palabras.length > 0){
       promedio = totalCaracteres / palabras.length;
     }
-    return promedio.toFixed(1);
+    return parseFloat(promedio.toFixed(1)); // Convertir a número decimal
   },
   getNumberCount: (text) => {
     let numeros = text.replace(/\D/g, '').length;
@@ -34,6 +34,6 @@ const analyzer = {
     let suma = numeros.reduce((acc, num) => acc + parseInt(num, 10), 0);
     return suma;
   }
-}
+};
 
-export default analyzer; // Corregido: la exportación está fuera de las funciones
+export default analyzer;

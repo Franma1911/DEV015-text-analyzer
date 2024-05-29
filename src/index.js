@@ -19,7 +19,6 @@ texto.onkeyup = () => {
   let sumaNumeros = analyzer.getNumberSum(text);
   
   let resultadosHTML = `
-  <h2>Resultados:</h2>
   <div class="caracteristica">
     <p>Número de caracteres: ${caracteres}</p>
   </div>

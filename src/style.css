@@ -1,7 +1,9 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2; /* gris claro */
-  background-image: url('web.png');
+  font-family: "Allerta Stencil";
+  background-color: hsl(0, 0%, 95%); /* gris claro */
+  background-image: url('/img-front/web.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #333; /* gris oscuro */
   margin: 0;
   padding: 0;
@@ -9,7 +11,7 @@ body {
 
 .container {
   width: 80%;
-  margin: 20px auto;
+  margin: 10px auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
@@ -17,12 +19,19 @@ body {
 }
 
 h1 {
-  color: #ff6f61;
+  color: #ee32a0;
+  font-size:60px;
+  text-shadow: 5px 5px #6c6e70;
+}
+
+h2 {
+  color: #ee32a0;
 }
 
 /* área de texto */
 #inputText {
   width: 100%;
+  font-size: 16px;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -34,9 +43,11 @@ h1 {
   background-color: #3498db;
   color: #fff;
   border: none;
+  font-size: 18px;
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 4px 8px 0 rgba(0,0,0,0.19);
 }
 
 #limpiarButton:hover {
@@ -45,7 +56,9 @@ h1 {
 
 /* contenedor de resultados */
 #resultados {
+  color: #fff;
   margin-top: 20px;
+  
 }
 
 /* característica */
@@ -54,6 +67,7 @@ h1 {
   padding: 10px;
   margin: 10px;
   opacity: 0.8; /* Opacidad general de la caja */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /*resultados individuales */
@@ -66,8 +80,12 @@ h1 {
   color: #f16b5f;
 }
 
+.title-center {
+  text-align: center;
+}
+
 #contenedor {
-  padding-top: 10%;
+  padding-top: 5%;
   padding-left: 30%;
   padding-right: 30%;
 }
@@ -110,9 +128,12 @@ h1 {
     color: #f16b5f;
   }
 
-  #contenedor {
-    padding-top:10%;
-    padding-left:30%;
-    padding-right: 30%;
+  #footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    min-height: 10%;
+    padding:20px;
+
   }
-  

@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Allerta+Stencil" />
     <title>Análisis de Texto</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div id="contenedor">
-        <h1>Analizador de texto</h1>
+        <div class="title-center">
+            <h1>Dynamic Counter</h1>
+        </div>
         <textarea id="inputText" rows="4" cols="50"></textarea><br>
-        <button id="limpiarButton">Limpiar</button><br>
+        <div class="title-center">
+            <br>
+            <button id="limpiarButton">Limpiar</button><br>
+        </div>
+        <div class="title-center">
+            <br>
+            <hr>
+            <h2>Resultados</h2>
+        </div>
         <div id="resultados"></div>
+        <br>
+        <hr>
+        <br>
+    </div>
+    <div id="footer">
+        © Karen Astudillo 2024
     </div>
     <script type="module" src="analyzer.js"></script>
     <script type="module" src="index.js"></script>
