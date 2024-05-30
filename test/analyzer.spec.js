@@ -1,4 +1,5 @@
-const analyzer = require('./analyzer');
+//const analyzer = require('../analyzer');
+import analyzer from '../src/analyzer.js';
 
 describe('analyzer', () => {
   const TEST_TEXT_NO_NUMBERS = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
@@ -25,7 +26,7 @@ describe('analyzer', () => {
   });
   describe('getAverageWordLength', () => {
     it('should return 5.53 for "' + TEST_TEXT_NO_NUMBERS + '"', () => {
-      expect(analyzer.getAverageWordLength(TEST_TEXT_NO_NUMBERS)).toBe('5.3');
+      expect(analyzer.getAverageWordLength(TEST_TEXT_NO_NUMBERS)).toBe('5.5');
     });
   });
   
