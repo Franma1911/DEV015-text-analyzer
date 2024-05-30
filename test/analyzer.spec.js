@@ -1,4 +1,3 @@
-// analyzer.spec.js
 const analyzer = require('./analyzer');
 
 describe('analyzer', () => {

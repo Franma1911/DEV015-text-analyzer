@@ -9,14 +9,16 @@
 </head>
 
 <body>
+    <header>
+        <h1>Analizador de texto</h1>
+    </header>
+
     <div id="contenedor">
-        <div class="title-center">
-            <h1>Dynamic Counter</h1>
-        </div>
-        <textarea id="inputText" rows="4" cols="50"></textarea><br>
+        
+        <textarea name="user-input" rows="4" cols="50"></textarea><br>
         <div class="title-center">
             <br>
-            <button id="limpiarButton">Limpiar</button><br>
+            <button id="reset-button">Limpiar</button><br>
         </div>
         <div class="title-center">
             <br>
@@ -28,9 +30,9 @@
         <hr>
         <br>
     </div>
-    <div id="footer">
-        © Karen Astudillo 2024
-    </div>
+    <footer>
+       <p>© Karen Astudillo 2024</p> 
+    </footer>
     <script type="module" src="analyzer.js"></script>
     <script type="module" src="index.js"></script>
 </body>
